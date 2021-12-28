@@ -8,3 +8,23 @@ body parser dependency 다운
 
 4. npm install nodemon --save-dev 
 --dev는 개발모드로, 로컬에서만 사용하겠다.
+
+5. Bcrypt로 비밀번호 암호화
+npm install bcrypt --save
+
+6. token을 위한 라이브러리 다운로드
+npm install jsonwebtoken --save
+
+7. 쿠키에 저장하기 위한 라이브러리 다운로드
+npm install cookie-parser --save
+
+
+*** userSchema.statics 
+        Vs 
+    userSchema.methods
+
+    : 메소드는 객체의 인스턴스를 만들어야만 사용이 가능
+      스태틱은 객체의 인스턴스를 만들지 않아도 사용이 가능
+
+ex) 무조건 User.statics
+    but, user.methods 사용 가능
