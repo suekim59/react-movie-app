@@ -1,3 +1,10 @@
 1. npm install express --save
 
 2. npm install mongoose --save
+
+body parser dependency 다운
+3. npm install body-parser --save
+*** However, after 4.X version of express, it is included in express. 
+
+4. npm install nodemon --save-dev 
+--dev는 개발모드로, 로컬에서만 사용하겠다.
